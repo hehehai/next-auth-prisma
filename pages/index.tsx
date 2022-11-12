@@ -1,3 +1,3 @@
 export default function () {
-  return <div>hello</div>;
+  return <div className="text-red-500 p-4">hello</div>;
 }

@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 网页背景色 */
+body {
+  @apply bg-gray-200;
+}
