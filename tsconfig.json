@@ -17,7 +17,16 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/lib/*": [
+        "lib/*"
+      ],
+      "~/components/*": [
+        "components/*"
+      ]
+    }
   },
   "exclude": [
     "node_modules"
