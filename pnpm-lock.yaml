@@ -8,6 +8,7 @@ specifiers:
   autoprefixer: ^10.4.13
   next: 12.3.3
   next-auth: ^4.16.4
+  nodemailer: ^6.8.0
   postcss: ^8.4.19
   prisma: ^4.6.1
   react: ^18.2.0
@@ -20,7 +21,8 @@ dependencies:
   '@next-auth/prisma-adapter': registry.npmmirror.com/@next-auth/prisma-adapter/1.0.5_2pl3b2nwmjya7el2zbe6cwkney
   '@prisma/client': registry.npmmirror.com/@prisma/client/4.6.1_prisma@4.6.1
   next: registry.npmmirror.com/next/12.3.3_biqbaboplfbrettd7655fr4n2y
-  next-auth: registry.npmmirror.com/next-auth/4.16.4_axequwibc5yadwk55bo7ehxsoe
+  next-auth: registry.npmmirror.com/next-auth/4.16.4_uyayeode33ai7slj7ejfnf6gwa
+  nodemailer: registry.npmmirror.com/nodemailer/6.8.0
   prisma: registry.npmmirror.com/prisma/4.6.1
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
@@ -86,7 +88,7 @@ packages:
       next-auth: ^4
     dependencies:
       '@prisma/client': registry.npmmirror.com/@prisma/client/4.6.1_prisma@4.6.1
-      next-auth: registry.npmmirror.com/next-auth/4.16.4_axequwibc5yadwk55bo7ehxsoe
+      next-auth: registry.npmmirror.com/next-auth/4.16.4_uyayeode33ai7slj7ejfnf6gwa
     dev: false
 
   registry.npmmirror.com/@next/env/12.3.3:
@@ -779,7 +781,7 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  registry.npmmirror.com/next-auth/4.16.4_axequwibc5yadwk55bo7ehxsoe:
+  registry.npmmirror.com/next-auth/4.16.4_uyayeode33ai7slj7ejfnf6gwa:
     resolution: {integrity: sha512-KXW578+ER1u5RcWLwCHMdb/RIBIO6JM8r6xlf9RIPSKzkvDcX9FHiZfJS2vOq/SurHXPJZc4J3OS4IDJpF74Dw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/next-auth/-/next-auth-4.16.4.tgz}
     id: registry.npmmirror.com/next-auth/4.16.4
     name: next-auth
@@ -799,6 +801,7 @@ packages:
       cookie: registry.npmmirror.com/cookie/0.5.0
       jose: registry.npmmirror.com/jose/4.11.0
       next: registry.npmmirror.com/next/12.3.3_biqbaboplfbrettd7655fr4n2y
+      nodemailer: registry.npmmirror.com/nodemailer/6.8.0
       oauth: registry.npmmirror.com/oauth/0.9.15
       openid-client: registry.npmmirror.com/openid-client/5.3.0
       preact: registry.npmmirror.com/preact/10.11.2
@@ -861,6 +864,13 @@ packages:
     name: node-releases
     version: 2.0.6
     dev: true
+
+  registry.npmmirror.com/nodemailer/6.8.0:
+    resolution: {integrity: sha512-EjYvSmHzekz6VNkNd12aUqAco+bOkRe3Of5jVhltqKhEsjw/y0PYPJfp83+s9Wzh1dspYAkUW/YNQ350NATbSQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nodemailer/-/nodemailer-6.8.0.tgz}
+    name: nodemailer
+    version: 6.8.0
+    engines: {node: '>=6.0.0'}
+    dev: false
 
   registry.npmmirror.com/normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz}
