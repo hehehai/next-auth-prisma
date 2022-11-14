@@ -16,6 +16,11 @@ const Header = () => {
           <Link href="/">
             <a className="bold">首页</a>
           </Link>
+          {session && (
+            <Link href="/drafts">
+              <a>我的草稿</a>
+            </Link>
+          )}
         </div>
         {isLoading ? (
           <div>验证中...</div>
