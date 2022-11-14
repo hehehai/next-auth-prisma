@@ -26,6 +26,9 @@ const Header = () => {
                 <p>
                   {session?.user?.name} ({session?.user?.email})
                 </p>
+                <Link href="/create">
+                  <a>新文章</a>
+                </Link>
                 <Link href="/api/auth/signout">
                   <a>退出</a>
                 </Link>
